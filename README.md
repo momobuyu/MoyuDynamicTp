@@ -6,3 +6,6 @@
 
 # 插件原理图解
 <img width="1037" height="575" alt="image" src="https://github.com/user-attachments/assets/996f802a-1eef-4214-aef2-1f633d8179c3" />
+
+# 进阶使用办法
+你可以借助NI物品插件或龙核按键指令，把此插件指令绑定在物品或按键上，右键物品或按下按键即可切换
