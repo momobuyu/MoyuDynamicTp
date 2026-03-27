@@ -1,0 +1,17 @@
+name: MoyuDynamicTp
+main: com.moyu.dynamicTp.MoyuDynamicTpPlugin
+version: 1.0.0
+api-version: 1.12
+author: Moyu
+description: Seamless dynamic teleport between two similar regions using anchor mapping.
+
+commands:
+  moyudynamictp:
+    description: Dynamic teleport command
+    usage: /moyudynamictp <player> <mapping> | /moyudynamictp reload
+    aliases: [mdt]
+permissions:
+  moyudynamictp.use:
+    default: op
+  moyudynamictp.reload:
+    default: op

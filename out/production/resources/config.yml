@@ -1,0 +1,31 @@
+messages:
+  prefix: "&7[&bMoyuDynamicTp&7] "
+  no_permission: "&c你没有权限。"
+  player_not_found: "&c找不到该玩家。"
+  mapping_not_found: "&c找不到配置 &e{mapping}&c。"
+  reloaded: "&a配置已重载。"
+  teleported: "&a已将 &e{player}&a 无缝传送到 &e{mapping}&a 对应区域。"
+  not_in_world: "&c你不在任意配置区域内。"
+
+mappings:
+  配置1:
+    world: world
+
+    # ===== 锚点（同景视角对齐）=====
+    location1A: "23,6,288,-5,6"
+    location1B: "15,6,689,-6,9"
+
+    location2A: "48,6,288,-5,6"
+    location2B: "69,6,689,-6,9"
+
+    # ===== 区域1包围盒（两个角点）=====
+    region1:
+      pos1: "10,0,260"
+      pos2: "39,255,720"
+
+    # ===== 区域2包围盒（两个角点）=====
+    region2:
+      pos1: "41,0,260"
+      pos2: "90,255,720"
+
+    enableScale: true

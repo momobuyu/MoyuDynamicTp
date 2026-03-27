@@ -1,0 +1,18 @@
+name: MoyuTools
+main: moyu.main.Main
+version: 1.0
+api-version: 1.16
+
+commands:
+  moyutools:
+    description: MoyuTools 主命令
+    usage: "/moyutools <open|reload|coreclientreload|location|copy|view>"
+    aliases: [mt, moyu]
+  loc:
+    description: 快速输出当前位置及辅助指令
+    usage: "/loc"
+
+permissions:
+  moyutools.view:
+    description: 允许使用 /moyutools view 切换视角
+    default: true
